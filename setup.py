@@ -10,7 +10,7 @@ def README():
 
 setup(
     name='gym_super_mario_bros',
-    version='3.0.6',
+    version='3.0.8',
     description='Super Mario Bros. for OpenAI Gym',
     long_description=README(),
     long_description_content_type='text/markdown',
@@ -22,7 +22,7 @@ setup(
         'Reinforcement-Learning-Environment',
     ]),
     classifiers=[
-        'License :: OSI Approved :: MIT License',
+        'License :: Free For Educational Use',
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research',
@@ -38,7 +38,7 @@ setup(
     url='https://github.com/Kautenja/gym-super-mario-bros',
     author='Christian Kauten',
     author_email='kautencreations@gmail.com',
-    license='MIT',
+    license='Proprietary',
     packages=find_packages(),
     package_data={
         'gym_super_mario_bros': ['lua/*.lua', 'roms/*.nes']
